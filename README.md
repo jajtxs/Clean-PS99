@@ -14,4 +14,10 @@ A simplified PS99 webhook script for discord, works perfectly with Google App Sc
 
 `EMBED_TITLE` : The title of the embed message.
 
-`IMAGE_URL` : The URL of the image to include in the embed, all you need to do is change the numbers at the end with the desired rblxassetid:// (can be found in `/collection/pets`
+`IMAGE_URL` : The URL of the image to include in the embed, all you need to do is change the numbers at the end with the desired rblxassetid:// (can be found in `/collection/pets` )
+
+The given example is tailored for the `2024 Gargantuan Gift` though it's easy enough to change.
+
+Thanks!
+
+u/Puzzleheaded-Gap-980
