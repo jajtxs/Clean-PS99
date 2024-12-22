@@ -37,13 +37,11 @@ function sendOrUpdateMessage(config) {
       })
     };
 
-    // Send or update the message
     const url = MESSAGE_ID ? `${WEBHOOK_URL}/messages/${MESSAGE_ID}` : WEBHOOK_URL;
     const result = UrlFetchApp.fetch(url, options);
     const resultJson = JSON.parse(result.getContentText());
 
     if (!MESSAGE_ID) {
-      // Log the message ID after the first run
       console.log("Message sent. Message ID: " + resultJson.id);
     } else {
       console.log("Message updated.");
