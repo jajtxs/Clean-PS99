@@ -1,6 +1,6 @@
 # Sticky RAP
 
-A simplified PS99 webhook script for discord.
+A simplified PS99 webhook script for discord, works perfectly with Google App Script (free). Can be tailored to any item, any pet, even any API you'd like, though I'd suggest only changing what you understand.
 
 **Customization Options:**
 
@@ -14,4 +14,4 @@ A simplified PS99 webhook script for discord.
 
 `EMBED_TITLE` : The title of the embed message.
 
-`IMAGE_URL` : The URL of the image to include in the embed, all you need to do is change the numbers at the end with the desired rblxassetid://
+`IMAGE_URL` : The URL of the image to include in the embed, all you need to do is change the numbers at the end with the desired rblxassetid:// (can be found in `/collection/pets`
